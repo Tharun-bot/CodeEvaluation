@@ -1,0 +1,22 @@
+[
+    {
+        "question": "How do you reverse a string in Python?",
+        "answer": "def reverse_string(s):\n    return s[::-1]"
+    },
+    {
+        "question": "How do you find the largest number in a list?",
+        "answer": "def find_largest(lst):\n    return max(lst)"
+    },
+    {
+        "question": "How do you check if a number is prime?",
+        "answer": "def is_prime(n):\n    if n <= 1:\n        return False\n    for i in range(2, int(n**0.5)+1):\n        if n % i == 0:\n            return False\n    return True"
+    },
+    {
+        "question": "How do you merge two dictionaries in Python?",
+        "answer": "def merge_dicts(dict1, dict2):\n    return {**dict1, **dict2}"
+    },
+    {
+        "question": "How do you check if a list is empty?",
+        "answer": "def is_empty(lst):\n    return len(lst) == 0"
+    }
+]
